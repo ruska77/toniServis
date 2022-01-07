@@ -38,11 +38,11 @@
 	if (isset($_GET['delete']) && $_GET['delete'] != '') {
 		$news_query = @mysqli_fetch_array(@mysqli_query($MySQL, "SELECT picture_id, path FROM users LEFT JOIN pictures ON users.picture_id = pictures.id WHERE id=" .(int)$_GET['delete'] . " LIMIT 1"));
 		$picture_id = $news_query['pictures_id'];
-		@mysqli_query($MySQL, ("DELETE FROM pictures WHERE id = " . $picture_id . ""));
 		$query  = "DELETE FROM users";
 		$query .= " WHERE id=".(int)$_GET['delete'];
 		$query .= " LIMIT 1";
 		@mysqli_query($MySQL, $query);
+		@mysqli_query($MySQL, ("DELETE FROM pictures WHERE id = " . $picture_id . ""));
 
 		$picture = "images/" . $news_query['path'];
 		@unlink($picture); 

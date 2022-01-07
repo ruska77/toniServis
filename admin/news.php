@@ -74,12 +74,12 @@
 		$_picture = 'news/' . $row['path'];
 		@unlink($_picture); 
 		$delete_pictrure = "DELETE FROM pictures WHERE path = '" . $row['path'] . "'";
-		@mysqli_query($MySQL, $delete_pictrure);
 		
 		$query  = "DELETE FROM news";
 		$query .= " WHERE id=".(int)$_GET['delete'];
 		$query .= " LIMIT 1";
 		$result = @mysqli_query($MySQL, $query);
+		@mysqli_query($MySQL, $delete_pictrure);
 		
 		$_SESSION['message'] = '<p>Uspješno ste uklonili vijest!</p>';		
 		header("Location: index.php?menu=7&action=2");
