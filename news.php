@@ -27,7 +27,7 @@
 				if(strlen($row['description']) > 300) {
 					echo substr(strip_tags($row['description']), 0, 300).'... <a href="index.php?menu=' . $menu . '&amp;action=' . $row['news_id'] . '">Više...</a>';
 				} else {
-					echo strip_tags($row['description']);
+					echo strip_tags($row['description']).'... <a href="index.php?menu=' . $menu . '&amp;action=' . $row['news_id'] . '">Više...</a>';
 				}
 				print '
 				<time datetime="' . $row['date'] . '"><i>' . pickerDateToMysql($row['date']) . '</i></time>

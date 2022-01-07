@@ -6,26 +6,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<meta name="description" content="some description">
-		<meta name="keywords" content="banana, prehrana, zdravo, voće">
-		
-		<meta itemprop="name" content="Hello Example">
-		<meta itemprop="description" content="Some description">
-		<meta itemprop="image" content="Your URL"> 
-		
-		<meta property="og:title" content="Hello Example">
-		<meta property="og:type" content="article">
-		<meta property="og:url" content="Your URL">
-		<meta property="og:image" content="Your URL">
-		<meta property="og:description" content="Some description">
-		<meta property="article:tag" content="banana, prehrana, zdravo, voće">
-		<meta name="author" content="ktomic2@vvg.hr">
+		<meta name="keywords" content="servis, računala, održavanje">
+		<meta name="author" content="Antonijo Ruškovački">
 		
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 		
-		<title>Probna stranica - Kontakt</title>
+		<title>ToniiServis - Kontakt</title>
 	</head>
 <body>
 	<header>
@@ -42,13 +31,13 @@
 	<main>
 		<h1>Kontakt forma</h1>
 		<div id="contact">
-		    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31454.037457606613!2d16.097089065838365!3d45.82787071079163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28d10cf249616180!2sFast%20Food%20Banana!5e0!3m2!1shr!2shr!4v1608836401468!5m2!1shr!2shr" width="50%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>				
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11145.039595861264!2d16.030453639736393!3d45.70582266567099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47667e36f23379af%3A0x2600ad5153371002!2zR3JhZGnEh2k!5e0!3m2!1shr!2shr!4v1610191701194!5m2!1shr!2shr" width= 900 height= 400 style="border:0" allowfullscreen></iframe>
 			<?php
 				print '<p style="text-align:center; padding: 10px; background-color: #d7d6d6;border-radius: 5px;">Zaprimili smo vaše pitanje. Odgovoriti ćemo unutar 24 sata.</p>';
 				$EmailHeaders  = "MIME-Version: 1.0\r\n";
 				$EmailHeaders .= "Content-type: text/html; charset=utf-8\r\n";
-				$EmailHeaders .= "From: <kt99kiki@gmail.com>\r\n";
-				$EmailHeaders .= "Reply-To:<kt99kiki@gmail.com>\r\n";
+				$EmailHeaders .= "From: <antonijo.ruska@gmail.com>\r\n";
+				$EmailHeaders .= "Reply-To:<antonijo.ruska@gmail.com>\r\n";
 				$EmailHeaders .= "X-Mailer: PHP/".phpversion();
 				$EmailSubject = 'Probna stranica - Kontakt';
 				$EmailBody  = '
@@ -94,7 +83,7 @@
 		</div>
 	</main>
 	<footer>
-        <p >Copyright &copy; '. date("Y").' Kristian Tomić. <a href="https://github.com/tomickristian/WebAplikacijeProjekt" target="_blank"><img src="images/github.svg" title="Github" alt="Github"></a></p>
+        <p >Copyright &copy; '. date("Y").' Antonijo Ruškovački. <a href="nema jos" target="_blank"><img src="images/github.svg" title="Github" alt="Github"></a></p>
 	</footer>
 
 	<script>

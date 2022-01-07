@@ -20,7 +20,7 @@ print '
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<meta name="description" content="some description">
-		<meta name="keywords" content="banana, prehrana, zdravo, voće">
+		<meta name="keywords" content="servis, računala, održavanje">
 		
 		<meta itemprop="name" content="Hello Example">
 		<meta itemprop="description" content="Some description">
@@ -31,15 +31,15 @@ print '
 		<meta property="og:url" content="Your URL">
 		<meta property="og:image" content="Your URL">
 		<meta property="og:description" content="Some description">
-		<meta property="article:tag" content="banana, prehrana, zdravo, voće">
-		<meta name="author" content="ktomic2@vvg.hr">
+		<meta property="article:tag" content="servis, računala, održavanje">
+		<meta name="author" content="antonijo.ruska@gmail.com">
 		
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 		
-		<title>Banane</title>
+		<title>ToniiServis</title>
 	</head>
 <body>
 	<header>
@@ -60,7 +60,7 @@ print '
 		else if ($menu == 9) { include("user.php"); }
 	print '</main>
 	<footer>
-		<p >Copyright &copy; '. date("Y").' Kristian Tomić. <a href="https://github.com/tomickristian/WebAplikacijeProjekt" target="_blank"><img src="images/github.svg" title="Github" alt="Github"></a></p>
+		<p >Copyright &copy; '. date("Y").' Antonijo Ruškovački. <a href="nema jos" target="_blank"><img src="images/github.svg" title="Github" alt="Github"></a></p>
 	</footer>
 </body>
 </html>';
