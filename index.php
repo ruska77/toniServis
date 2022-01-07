@@ -60,7 +60,7 @@ print '
 		else if ($menu == 9) { include("user.php"); }
 	print '</main>
 	<footer>
-		<p >Copyright &copy; '. date("Y").' Antonijo Ruškovački. <a href="nema jos" target="_blank"><img src="images/github.svg" title="Github" alt="Github"></a></p>
+		<p >Copyright &copy; '. date("Y").' Antonijo Ruškovački. <a href="https://github.com/ruska77/toniServis" target="_blank"><img src="images/github.svg" title="Github" alt="Github"></a></p>
 	</footer>
 </body>
 </html>';
